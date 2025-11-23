@@ -166,11 +166,6 @@ section h2 {
 
 #portfolio {
     background: var(--blanc-casse);
-    /*max-width: 1400px;*/
-    /*display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;*/
 }
 
 .grid-portfolio {
@@ -193,4 +188,82 @@ section h2 {
     height: 100%;
     object-fit: cover;
     display: block;
+}
+
+/* PRESTATIONS */
+
+#prestations {
+    background: white;
+    padding: 0 4rem;
+    padding-bottom: 4rem;
+}
+
+#prestations h2 {
+    padding-top: 4rem;
+}
+
+.pricing-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 3.5rem;
+    margin-top: 2rem;
+}
+
+.pricing-card {
+    background: var(--blanc-casse);
+    padding: 2.5rem 2rem;
+    border-radius: 8px;
+    text-align: center;
+    border: 2px solid transparent;
+    transition: all 0.3s;
+}
+
+.pricing-card:hover {
+    border-color: var(--beige-rose);
+    transform: translateY(-5px);
+}
+
+.pricing-card.featured {
+    border-color: var(--beige-rose);
+    background: white;
+}
+
+.pricing-card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: var(--gris-anthracite);
+}
+
+.pricing-card .price {
+    font-size: 2.5rem;
+    color: var(--gris-anthracite);
+    font-weight: 700;
+    margin: 1.5rem 0;
+}
+
+.pricing-card .duration {
+    color: var(--gris-anthracite);
+    font-size: 0.95rem;
+    margin-bottom: 2rem;
+}
+
+.pricing-card ul {
+    list-style: none;
+    text-align: left;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+.pricing-card li {
+    padding: 0.5rem 0;
+    padding-left: 2.5rem;
+    position: relative;
+}
+
+.pricing-card li:before {
+    content: "~";
+    position: absolute;
+    left: 0;
+    color: var(--beige-rose);
+    font-weight: bold;
 }
