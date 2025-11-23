@@ -267,3 +267,42 @@ section h2 {
     color: var(--beige-rose);
     font-weight: bold;
 }
+
+/* TÉMOIGNAGES */
+
+#temoignages {
+    background: var(--blanc-casse);
+    padding-bottom: 4rem;
+}
+
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.testimonial-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    border-left: 4px solid var(--beige-rose);
+}
+
+.testimonial-text {
+    font-style: italic;
+    font-size: 1.2rem;
+    color: var(--gris-anthracite);
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+.testimonial-author {
+    font-weight: 700;
+    color: var(--gris-anthracite);
+}
+
+.testimonial-date {
+    font-size: 0.85rem;
+    color: var(--gris-anthracite);
+}
