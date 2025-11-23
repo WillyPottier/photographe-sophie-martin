@@ -59,7 +59,7 @@ nav a:hover {
 
 /* HERO SECTION */
 
-#hero {
+#accueil {
     height: 100vh;
     display: flex;
     align-items: center;
@@ -77,12 +77,12 @@ nav a:hover {
     padding: 2rem;
 }
 
-#hero h1 {
+#accueil h1 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
 }
 
-#hero p {
+#accueil p {
     font-size: 1.5rem;
     font-weight: 400;
     margin-bottom: 4rem;
@@ -129,7 +129,7 @@ section h2 {
 
 /* À PROPOS */
 
-#about {
+#a-propos {
     background: white;
     display: flex;
     flex-direction: column;
