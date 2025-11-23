@@ -1,0 +1,39 @@
+# Fichiers système macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Fichiers système Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Fichiers système Linux
+*~
+
+# Éditeurs de code
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Node modules
+node_modules/
+package-lock.json
+
+# Fichiers temporaires
+*.tmp
+*.log
+*.swp
+*.swo
+
+# Fichiers de build
+dist/
+build/
+
+# Variables d'environnement
+.env
+.env.local
+
+# Fichiers de cache
+.cache/
