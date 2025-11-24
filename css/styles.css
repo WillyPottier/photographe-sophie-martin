@@ -380,3 +380,53 @@ footer p {
     font-size: 0.9rem;
     opacity: 0.8;
 }
+
+@media (max-width: 768px) {
+    /* Navigation */
+    nav {
+        padding: 1rem;
+    }
+    
+    nav ul {
+        gap: 1rem;
+        font-size: 0.85rem;
+    }
+    
+    /* Hero */
+    #accueil h1 {
+        font-size: 2rem;
+    }
+    
+    #accueil p {
+        font-size: 1.2rem;
+    }
+    
+    /* Sections */
+    section {
+        margin: 0 1.5rem;
+    }
+    
+    section h2 {
+        font-size: 2rem;
+    }
+    
+    /* Portfolio */
+    .grid-portfolio {
+        grid-template-columns: 1fr;
+        padding: 0;
+    }
+    
+    /* Prestations */
+    #prestations {
+        padding: 0 1.5rem;
+    }
+    
+    .pricing-cards {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Témoignages */
+    .testimonial-grid {
+        grid-template-columns: 1fr;
+    }
+}
