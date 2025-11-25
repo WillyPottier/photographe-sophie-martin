@@ -71,7 +71,7 @@ nav a:hover {
     text-align: center;
     flex-shrink: 0;
     /* margin: 0 4rem; */
-    background: linear-gradient(0deg, rgba(255, 255, 255, 0.70) 0%, rgba(255, 255, 255, 0.70) 100%), url(/images/hero/1894015858edce65bbb0ea3366cce0216c3f4f6c.jpg) lightgray 50% / cover no-repeat;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.70) 0%, rgba(255, 255, 255, 0.70) 100%), url(../images/hero/1894015858edce65bbb0ea3366cce0216c3f4f6c.jpg) lightgray 50% / cover no-repeat;
     color: var(--gris-anthracite);
     position: relative;
 }
@@ -152,7 +152,7 @@ section h2 {
     height: 200px;
     border-radius: 50%;
     margin: 0 auto 3.5rem;
-    background: url(/images/about/ce76cf49d3eda4e7f4d501b0e8c156b84ba3166d.jpg) lightgray 50% / cover no-repeat;
+    background: url(../images/about/ce76cf49d3eda4e7f4d501b0e8c156b84ba3166d.jpg) lightgray 50% / cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
