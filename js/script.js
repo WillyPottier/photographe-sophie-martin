@@ -1,4 +1,4 @@
-/* FORMULAIRE */
+// FORMULAIRE
 
 const form = document.getElementById('contact-form');
 
@@ -42,4 +42,31 @@ form.addEventListener('submit', (e) => {
         alert(`Message envoyé avec succès !`)
         form.reset();
     };
+});
+
+// LIGHTBOX
+
+const galleryItems = document.querySelectorAll('.gallery-item img');
+const body = document.body;
+
+galleryItems.forEach(item => {
+ item.addEventListener('click', () => {
+
+//Création de l'overlay
+const lightbox = document.createElement('div');
+lightbox.className = 'lightbox';
+lightbox.innerHTML = `
+        <span class="close">&times;</span>
+        <img src="${item.src}" alt="${item.alt}">
+    `;
+
+body.appendChild(lightbox);
+body.style.overflow = 'hidden';//Empêche le scroll
+
+// Fermer au clic
+        lightbox.addEventListener('click', () => {
+            lightbox.remove();
+            body.style.overflow = 'auto';
+        });
+ });
 });
