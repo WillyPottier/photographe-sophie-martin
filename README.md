@@ -7,5 +7,5 @@ Site one-page pour photographe de mariage.
 - CSS3
 - JavaScript (Vanilla)
 
-## Installation
-Ouvrir index.html dans un navigateur.
+## 🚀 Démo en ligne
+👉 [Voir le site](https://willypottier.github.io/photographe-sophie-martin/)
